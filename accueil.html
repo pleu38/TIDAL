@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+	<title>Page Accueil</title>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+<nav> 
+ <ul id="navigation">
+  <li><a href="accueil.html" title="aller à la section 1">Page Accueil</a></li>
+  <li><a href="information.html" title="aller à la section 2">Page information</a></li>
+  <li><a href="liste_patho.html" title="aller à la section 3">Liste des pathologies</a></li>
+  <li><a href="#" title="aller à la section 4">item4</a></li>
+  <li><a href="#" title="aller à la section 5">item5</a></li>
+</ul>
+</nav>
+   	<h1>Accueil</h1>
+  <!-- zone de connexion -->
+            
+            <form action="verification.php" method="POST">
+                <h1>Connexion</h1>
+                
+                <label><b>Nom d'utilisateur</b></label>
+                <input type="text" placeholder="Entrer le nom d'utilisateur" name="username" required>
+
+                <label><b>Mot de passe</b></label>
+                <input type="password" placeholder="Entrer le mot de passe" name="password" required>
+
+                <input type="submit" id='submit' value='LOGIN' >
+                
+            </form>
+		
+  
+  </body>
+</html>
